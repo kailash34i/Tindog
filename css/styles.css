@@ -1,0 +1,387 @@
+
+body{
+       font-family: montserrat;
+       overflow-x: hidden; 
+       
+}
+
+
+/* ........Title/Navbar........ */
+
+
+#title {
+    color: white;
+    background-color: #ff4c68;   
+    
+}
+
+.title-image{
+
+    width: 57%;
+    transform: rotate(20deg);
+    margin: 5% 20% 0 30%;
+    position: absolute;
+    
+} 
+
+h1{
+    font-family: Montserrat;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+} 
+
+
+.container-fluid{
+    padding: 5% 18% 8%;
+}
+
+.navbar{
+    padding: 0 0 4.5rem;
+   
+}
+.nav-item{
+    padding: 0 5%;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: Montserrat;
+
+}
+.navbar-brand{
+    font-family: ubuntu;
+    font-size: 2rem;
+    font-weight: 400;
+}
+.btn-download{
+    margin: 5% 3% 5% 0;
+}
+
+
+/* ......Features....... */
+
+
+#features{
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+    
+.features-row{
+    padding: 0 15% 0;
+}
+
+.h3-class{
+    font-weight: bold;
+    padding-top: 2rem;
+}
+.col-md-4{
+    text-align: center;
+    margin: 10% 0% 5% 0%;
+      
+}
+.para-features{
+    font-size: 1.2rem;
+}
+
+/* ...... Testimonial...... */
+
+#testimonials{
+       
+        text-align: center;
+        background-color: #ff4c68;
+        color: #fff;
+        font-weight: 500;
+        
+}
+
+.carousel-inner{
+    padding: 8% 20% 5% 20%;
+}
+
+.testimonial-text{
+    font-family: Montserrat ;
+    font-weight: bold;
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+.testimonial-img{
+          width: 5rem;
+          border-radius: 50px;
+          padding: 10px;
+}
+
+
+/* ----- Press section------- */
+
+#press{
+         background-color: #ff4c68;
+         text-align: center;
+         padding-bottom: 3rem;
+}
+
+.press-img{
+         width: 10rem;
+         padding: 2% 1%;
+}
+
+.carousel-button{
+         background-color: #ff4c68;
+         border: none;
+}
+
+
+
+ /* ........Pricing...... */
+
+
+#pricing{
+        padding: 8% 20% 5% 20%;
+        text-align: center;
+    
+} 
+.card-div{
+         margin: 0%;
+}
+
+.card-header{
+         background-color: rgb(204, 204, 204);
+}
+
+.card-title{
+         font-size: 1.5rem;
+}
+
+/* call-to-action */
+
+#cta{
+            background-color: #ff4c68;
+            text-align: center;
+}
+
+.cta-heading{
+                 font-family: Montserrat;   
+                 font-weight: bold;
+                 color: #fff;
+                 font-size: 2.5rem;
+                 padding: 4% 25% 0 25%;
+}
+             
+.cta-btn{
+    
+               margin: 3% 3px 4% 3px;
+} 
+
+/*...... footer......... */
+
+#footer{
+            background-color: aliceblue;
+            text-align: center;
+}
+
+.footer-icon{
+              padding: 4.5% 6px 1.5% 6px;
+}
+
+.footer-line{
+               font-family: sans-serif;
+               font-weight: 500;
+               padding-bottom: 3%;
+               color: rgb(83, 81, 81);
+}
+
+/* -----media viewport------- */
+
+/* -----For mobile------- */
+
+@media (max-width:480px){
+
+  html,body{
+         
+          overflow-x: hidden;
+         
+   }
+
+
+    /* ----title---- */
+
+
+    .container-fluid{
+        padding: 5% 10% 8%;
+    }
+    .navbar-brand{
+             font-size: 1.8rem;
+    }
+
+    h1{font-size: 2.5rem;}
+
+    .title-image{ 
+               position: static;
+               transform: rotate(0);
+               margin: 5% auto;
+               box-shadow: 7px 5px  black;
+               border-radius: 35px;
+    }
+
+    .row{
+        text-align: center;
+    }
+    
+
+    
+    /* ----testimonials----- */
+
+    .testimonial-text{
+        font-family: Montserrat ;
+        font-weight: bold;
+        font-size: 1.7rem;
+        line-height: 1.5;
+    }
+
+    .carousel-indicators > li {
+        height: 10px;
+        width: 14px;
+        border-radius: 50%;
+      }
+
+    .carousel-inner{
+        padding: 10% 16% 10% 16%;
+    }
+
+    .press-img{
+        width: 6rem;
+        padding: 2% 1%;
+    }
+
+    /* ----call to action---- */
+
+    .cta-heading{
+        font-family: Montserrat;   
+        font-weight: bold;
+        color: #fff;
+        font-size: 1.5rem;
+        padding: 4% 20% 5 20%;
+    }
+}
+
+/* ----- tablet------- */
+
+@media (min-width: 481px) and (max-width: 770px) {
+
+    html,body{
+         
+        overflow-x: hidden;
+       
+    }
+      /* ----title---- */
+
+    .container-fluid{
+        padding: 5% 20% 0% 10% ;
+    }
+
+    .title-image{
+        box-shadow: 13px 7px  black;
+        border-radius: 38px; 
+        position: relative;
+        left: 60px;
+        top: 20px;
+        transform: rotate(0);
+        margin: 0px;
+        height: 26.5rem; 
+        width: 13.5rem;
+    }
+
+ h1{
+       
+       font-size: 2.8rem;
+ }
+
+ /* ----testimonials----- */
+
+ .testimonial-text{
+    font-size: 2rem;
+    
+}
+
+/* ------pricing----- */
+
+#pricing{
+    padding: 8% 5% 5% 5%;
+
+} 
+
+
+/* -----cta heading---- */
+
+.cta-heading{
+    font-size: 2rem;
+    padding: 5% 15% 0% 15%;
+
+ }
+}
+
+/* -----for ipad ------- */
+
+@media (min-width: 771px) and (max-width: 1124px) {
+
+
+    html,body{
+         
+        overflow-x: hidden;
+       
+    }
+
+    /* ----title---- */
+
+    .container-fluid{
+        padding: 5% 9% 10% 9%;
+    }
+
+    .navbar{
+        padding-right: 10%;
+}
+
+    .title-image{ 
+        position: absolute;
+        transform: rotate(10 deg);
+        margin-left: 5rem;
+        margin-top: 1rem;
+        box-shadow: 13px 7px  black;
+        border-radius: 38px; 
+        height: 28rem; 
+        width: 14rem;
+
+}
+
+ h1{
+       
+       font-size: 3rem;
+ }
+
+ #features{
+    position: relative;
+}
+
+ /* ----testimonials----- */
+
+ .testimonial-text{
+    font-size: 2rem;
+    
+}
+
+/* ------pricing---- */
+
+#pricing{
+    padding: 8% 10% 5% 10%;
+
+} 
+
+
+
+ /* ------cta heading----- */
+.cta-heading{
+    font-size: 2rem;
+    padding: 5% 15% 0% 15%;
+
+ }
+}
